@@ -12,5 +12,7 @@ This is a framework for push transaction of eos.
 For example
 
 NSData *d = [EosByteWriter getBytesForSignature:self.chain_Id andParams:[[self getPramatersForRequiredKeys] objectForKey:@"transaction"] andCapacity:255];
-    NSString *signatureStr = [EosSignature initWithbytesForSignature:d privateKey:private_key];
-    NSString *packed_trxHexStr = [[EosByteWriter getBytesForSignature:nil andParams:[[self getPramatersForRequiredKeys] objectForKey:@"transaction"] andCapacity:512] hexadecimalString];
+
+NSString *signatureStr = [EosSignature initWithbytesForSignature:d privateKey:private_key];
+
+NSString *packed_trxHexStr = [[EosByteWriter getBytesForSignature:nil andParams:[[self getPramatersForRequiredKeys] objectForKey:@"transaction"] andCapacity:512] hexadecimalString];
