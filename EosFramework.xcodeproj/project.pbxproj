@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627A104F210EAB3300D834AF /* EosFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A1045210EAB3200D834AF /* EosFramework.framework */; };
+		627A1054210EAB3300D834AF /* EosFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1053210EAB3300D834AF /* EosFrameworkTests.m */; };
+		627A1056210EAB3300D834AF /* EosFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1048210EAB3200D834AF /* EosFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A107A210EAB8D00D834AF /* EosEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1078210EAB8D00D834AF /* EosEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A107B210EAB8D00D834AF /* EosEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1079210EAB8D00D834AF /* EosEncode.m */; };
+		627A107E210EB5AC00D834AF /* EosValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A107C210EB5AC00D834AF /* EosValidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A107F210EB5AC00D834AF /* EosValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A107D210EB5AC00D834AF /* EosValidate.m */; };
+		627A1082210EB6F800D834AF /* EosByteWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1080210EB6F800D834AF /* EosByteWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A1083210EB6F800D834AF /* EosByteWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1081210EB6F800D834AF /* EosByteWriter.m */; };
+		627A108E210EB85400D834AF /* JKBigDecimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1085210EB85400D834AF /* JKBigDecimal.h */; };
+		627A108F210EB85400D834AF /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1086210EB85400D834AF /* JKBigDecimal.m */; };
+		627A1090210EB85400D834AF /* JKBigInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1087210EB85400D834AF /* JKBigInteger.h */; };
+		627A1091210EB85400D834AF /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1088210EB85400D834AF /* JKBigInteger.m */; };
+		627A1092210EB85400D834AF /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A108A210EB85400D834AF /* tommath.c */; };
+		627A1093210EB85400D834AF /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108B210EB85400D834AF /* tommath.h */; };
+		627A1094210EB85400D834AF /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108C210EB85400D834AF /* tommath_class.h */; };
+		627A1095210EB85400D834AF /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108D210EB85400D834AF /* tommath_superclass.h */; };
+		627A1098210EB89700D834AF /* EosUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1096210EB89700D834AF /* EosUtils.h */; };
+		627A1099210EB89700D834AF /* EosUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1097210EB89700D834AF /* EosUtils.m */; };
+		627A109C210EBA0C00D834AF /* NSDate+EosExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A109A210EBA0C00D834AF /* NSDate+EosExt.h */; };
+		627A109D210EBA0C00D834AF /* NSDate+EosExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A109B210EBA0C00D834AF /* NSDate+EosExt.m */; };
+		627A10B5210EEE4600D834AF /* EosSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10B3210EEE4600D834AF /* EosSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A10B6210EEE4600D834AF /* EosSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A10B4210EEE4600D834AF /* EosSignature.m */; };
+		627A10C8210EF8ED00D834AF /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10BC210EF8ED00D834AF /* base58.c */; };
+		627A10C9210EF8ED00D834AF /* libbase58.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BD210EF8ED00D834AF /* libbase58.h */; };
+		627A10CA210EF8ED00D834AF /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BE210EF8ED00D834AF /* macros.h */; };
+		627A10CB210EF8ED00D834AF /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BF210EF8ED00D834AF /* options.h */; };
+		627A10CC210EF8ED00D834AF /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C0210EF8ED00D834AF /* rmd160.c */; };
+		627A10CD210EF8ED00D834AF /* rmd160.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C1210EF8ED00D834AF /* rmd160.h */; };
+		627A10CE210EF8ED00D834AF /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C2210EF8ED00D834AF /* sha2.c */; };
+		627A10CF210EF8ED00D834AF /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C3210EF8ED00D834AF /* sha2.h */; };
+		627A10D0210EF8ED00D834AF /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C4210EF8ED00D834AF /* sha3.c */; };
+		627A10D1210EF8ED00D834AF /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C5210EF8ED00D834AF /* sha3.h */; };
+		627A10D2210EF8ED00D834AF /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C6210EF8ED00D834AF /* uECC.c */; };
+		627A10D3210EF8ED00D834AF /* uECC.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C7210EF8ED00D834AF /* uECC.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		627A1050210EAB3300D834AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627A103C210EAB3200D834AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627A1044210EAB3200D834AF;
+			remoteInfo = EosFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		627A1045210EAB3200D834AF /* EosFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EosFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627A1048210EAB3200D834AF /* EosFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosFramework.h; sourceTree = "<group>"; };
+		627A1049210EAB3200D834AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627A104E210EAB3300D834AF /* EosFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EosFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627A1053210EAB3300D834AF /* EosFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosFrameworkTests.m; sourceTree = "<group>"; };
+		627A1055210EAB3300D834AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627A1078210EAB8D00D834AF /* EosEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosEncode.h; sourceTree = "<group>"; };
+		627A1079210EAB8D00D834AF /* EosEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosEncode.m; sourceTree = "<group>"; };
+		627A107C210EB5AC00D834AF /* EosValidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosValidate.h; sourceTree = "<group>"; };
+		627A107D210EB5AC00D834AF /* EosValidate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosValidate.m; sourceTree = "<group>"; };
+		627A1080210EB6F800D834AF /* EosByteWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosByteWriter.h; sourceTree = "<group>"; };
+		627A1081210EB6F800D834AF /* EosByteWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosByteWriter.m; sourceTree = "<group>"; };
+		627A1085210EB85400D834AF /* JKBigDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBigDecimal.h; sourceTree = "<group>"; };
+		627A1086210EB85400D834AF /* JKBigDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBigDecimal.m; sourceTree = "<group>"; };
+		627A1087210EB85400D834AF /* JKBigInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBigInteger.h; sourceTree = "<group>"; };
+		627A1088210EB85400D834AF /* JKBigInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBigInteger.m; sourceTree = "<group>"; };
+		627A108A210EB85400D834AF /* tommath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tommath.c; sourceTree = "<group>"; };
+		627A108B210EB85400D834AF /* tommath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath.h; sourceTree = "<group>"; };
+		627A108C210EB85400D834AF /* tommath_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath_class.h; sourceTree = "<group>"; };
+		627A108D210EB85400D834AF /* tommath_superclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tommath_superclass.h; sourceTree = "<group>"; };
+		627A1096210EB89700D834AF /* EosUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosUtils.h; sourceTree = "<group>"; };
+		627A1097210EB89700D834AF /* EosUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosUtils.m; sourceTree = "<group>"; };
+		627A109A210EBA0C00D834AF /* NSDate+EosExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+EosExt.h"; sourceTree = "<group>"; };
+		627A109B210EBA0C00D834AF /* NSDate+EosExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EosExt.m"; sourceTree = "<group>"; };
+		627A10B3210EEE4600D834AF /* EosSignature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EosSignature.h; sourceTree = "<group>"; };
+		627A10B4210EEE4600D834AF /* EosSignature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EosSignature.m; sourceTree = "<group>"; };
+		627A10BC210EF8ED00D834AF /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		627A10BD210EF8ED00D834AF /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
+		627A10BE210EF8ED00D834AF /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		627A10BF210EF8ED00D834AF /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		627A10C0210EF8ED00D834AF /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
+		627A10C1210EF8ED00D834AF /* rmd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmd160.h; sourceTree = "<group>"; };
+		627A10C2210EF8ED00D834AF /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		627A10C3210EF8ED00D834AF /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		627A10C4210EF8ED00D834AF /* sha3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
+		627A10C5210EF8ED00D834AF /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
+		627A10C6210EF8ED00D834AF /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		627A10C7210EF8ED00D834AF /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627A1041210EAB3200D834AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627A104B210EAB3300D834AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627A104F210EAB3300D834AF /* EosFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627A103B210EAB3200D834AF = {
+			isa = PBXGroup;
+			children = (
+				627A1047210EAB3200D834AF /* EosFramework */,
+				627A1052210EAB3300D834AF /* EosFrameworkTests */,
+				627A1046210EAB3200D834AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627A1046210EAB3200D834AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627A1045210EAB3200D834AF /* EosFramework.framework */,
+				627A104E210EAB3300D834AF /* EosFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627A1047210EAB3200D834AF /* EosFramework */ = {
+			isa = PBXGroup;
+			children = (
+				627A10BB210EF8ED00D834AF /* Crypto */,
+				627A1084210EB85400D834AF /* JKBigInteger */,
+				627A1048210EAB3200D834AF /* EosFramework.h */,
+				627A1078210EAB8D00D834AF /* EosEncode.h */,
+				627A1079210EAB8D00D834AF /* EosEncode.m */,
+				627A107C210EB5AC00D834AF /* EosValidate.h */,
+				627A107D210EB5AC00D834AF /* EosValidate.m */,
+				627A1080210EB6F800D834AF /* EosByteWriter.h */,
+				627A1081210EB6F800D834AF /* EosByteWriter.m */,
+				627A10B3210EEE4600D834AF /* EosSignature.h */,
+				627A10B4210EEE4600D834AF /* EosSignature.m */,
+				627A1096210EB89700D834AF /* EosUtils.h */,
+				627A1097210EB89700D834AF /* EosUtils.m */,
+				627A109A210EBA0C00D834AF /* NSDate+EosExt.h */,
+				627A109B210EBA0C00D834AF /* NSDate+EosExt.m */,
+				627A1049210EAB3200D834AF /* Info.plist */,
+			);
+			path = EosFramework;
+			sourceTree = "<group>";
+		};
+		627A1052210EAB3300D834AF /* EosFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				627A1053210EAB3300D834AF /* EosFrameworkTests.m */,
+				627A1055210EAB3300D834AF /* Info.plist */,
+			);
+			path = EosFrameworkTests;
+			sourceTree = "<group>";
+		};
+		627A1084210EB85400D834AF /* JKBigInteger */ = {
+			isa = PBXGroup;
+			children = (
+				627A1085210EB85400D834AF /* JKBigDecimal.h */,
+				627A1086210EB85400D834AF /* JKBigDecimal.m */,
+				627A1087210EB85400D834AF /* JKBigInteger.h */,
+				627A1088210EB85400D834AF /* JKBigInteger.m */,
+				627A1089210EB85400D834AF /* LibTomMath */,
+			);
+			path = JKBigInteger;
+			sourceTree = "<group>";
+		};
+		627A1089210EB85400D834AF /* LibTomMath */ = {
+			isa = PBXGroup;
+			children = (
+				627A108A210EB85400D834AF /* tommath.c */,
+				627A108B210EB85400D834AF /* tommath.h */,
+				627A108C210EB85400D834AF /* tommath_class.h */,
+				627A108D210EB85400D834AF /* tommath_superclass.h */,
+			);
+			path = LibTomMath;
+			sourceTree = "<group>";
+		};
+		627A10BB210EF8ED00D834AF /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				627A10BC210EF8ED00D834AF /* base58.c */,
+				627A10BD210EF8ED00D834AF /* libbase58.h */,
+				627A10BE210EF8ED00D834AF /* macros.h */,
+				627A10BF210EF8ED00D834AF /* options.h */,
+				627A10C0210EF8ED00D834AF /* rmd160.c */,
+				627A10C1210EF8ED00D834AF /* rmd160.h */,
+				627A10C2210EF8ED00D834AF /* sha2.c */,
+				627A10C3210EF8ED00D834AF /* sha2.h */,
+				627A10C4210EF8ED00D834AF /* sha3.c */,
+				627A10C5210EF8ED00D834AF /* sha3.h */,
+				627A10C6210EF8ED00D834AF /* uECC.c */,
+				627A10C7210EF8ED00D834AF /* uECC.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		627A1042210EAB3200D834AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627A107A210EAB8D00D834AF /* EosEncode.h in Headers */,
+				627A1082210EB6F800D834AF /* EosByteWriter.h in Headers */,
+				627A10B5210EEE4600D834AF /* EosSignature.h in Headers */,
+				627A107E210EB5AC00D834AF /* EosValidate.h in Headers */,
+				627A109C210EBA0C00D834AF /* NSDate+EosExt.h in Headers */,
+				627A10C9210EF8ED00D834AF /* libbase58.h in Headers */,
+				627A1094210EB85400D834AF /* tommath_class.h in Headers */,
+				627A10D1210EF8ED00D834AF /* sha3.h in Headers */,
+				627A1090210EB85400D834AF /* JKBigInteger.h in Headers */,
+				627A10CB210EF8ED00D834AF /* options.h in Headers */,
+				627A1056210EAB3300D834AF /* EosFramework.h in Headers */,
+				627A1098210EB89700D834AF /* EosUtils.h in Headers */,
+				627A10CD210EF8ED00D834AF /* rmd160.h in Headers */,
+				627A10CA210EF8ED00D834AF /* macros.h in Headers */,
+				627A1095210EB85400D834AF /* tommath_superclass.h in Headers */,
+				627A10CF210EF8ED00D834AF /* sha2.h in Headers */,
+				627A10D3210EF8ED00D834AF /* uECC.h in Headers */,
+				627A108E210EB85400D834AF /* JKBigDecimal.h in Headers */,
+				627A1093210EB85400D834AF /* tommath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		627A1044210EAB3200D834AF /* EosFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627A1059210EAB3300D834AF /* Build configuration list for PBXNativeTarget "EosFramework" */;
+			buildPhases = (
+				627A1040210EAB3200D834AF /* Sources */,
+				627A1041210EAB3200D834AF /* Frameworks */,
+				627A1042210EAB3200D834AF /* Headers */,
+				627A1043210EAB3200D834AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EosFramework;
+			productName = EosFramework;
+			productReference = 627A1045210EAB3200D834AF /* EosFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		627A104D210EAB3300D834AF /* EosFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627A105C210EAB3300D834AF /* Build configuration list for PBXNativeTarget "EosFrameworkTests" */;
+			buildPhases = (
+				627A104A210EAB3300D834AF /* Sources */,
+				627A104B210EAB3300D834AF /* Frameworks */,
+				627A104C210EAB3300D834AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627A1051210EAB3300D834AF /* PBXTargetDependency */,
+			);
+			name = EosFrameworkTests;
+			productName = EosFrameworkTests;
+			productReference = 627A104E210EAB3300D834AF /* EosFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627A103C210EAB3200D834AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = eos;
+				TargetAttributes = {
+					627A1044210EAB3200D834AF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					627A104D210EAB3300D834AF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 627A103F210EAB3200D834AF /* Build configuration list for PBXProject "EosFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 627A103B210EAB3200D834AF;
+			productRefGroup = 627A1046210EAB3200D834AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627A1044210EAB3200D834AF /* EosFramework */,
+				627A104D210EAB3300D834AF /* EosFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627A1043210EAB3200D834AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627A104C210EAB3300D834AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627A1040210EAB3200D834AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627A10D2210EF8ED00D834AF /* uECC.c in Sources */,
+				627A107F210EB5AC00D834AF /* EosValidate.m in Sources */,
+				627A10CC210EF8ED00D834AF /* rmd160.c in Sources */,
+				627A10D0210EF8ED00D834AF /* sha3.c in Sources */,
+				627A1083210EB6F800D834AF /* EosByteWriter.m in Sources */,
+				627A108F210EB85400D834AF /* JKBigDecimal.m in Sources */,
+				627A1099210EB89700D834AF /* EosUtils.m in Sources */,
+				627A109D210EBA0C00D834AF /* NSDate+EosExt.m in Sources */,
+				627A10CE210EF8ED00D834AF /* sha2.c in Sources */,
+				627A1092210EB85400D834AF /* tommath.c in Sources */,
+				627A10B6210EEE4600D834AF /* EosSignature.m in Sources */,
+				627A10C8210EF8ED00D834AF /* base58.c in Sources */,
+				627A1091210EB85400D834AF /* JKBigInteger.m in Sources */,
+				627A107B210EAB8D00D834AF /* EosEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627A104A210EAB3300D834AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627A1054210EAB3300D834AF /* EosFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		627A1051210EAB3300D834AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627A1044210EAB3200D834AF /* EosFramework */;
+			targetProxy = 627A1050210EAB3300D834AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		627A1057210EAB3300D834AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		627A1058210EAB3300D834AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		627A105A210EAB3300D834AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = DBVPS6244A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EosFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eos.EosFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		627A105B210EAB3300D834AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					arm64,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = DBVPS6244A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EosFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eos.EosFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+		627A105D210EAB3300D834AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBVPS6244A;
+				INFOPLIST_FILE = EosFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eos.EosFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627A105E210EAB3300D834AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBVPS6244A;
+				INFOPLIST_FILE = EosFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eos.EosFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627A103F210EAB3200D834AF /* Build configuration list for PBXProject "EosFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627A1057210EAB3300D834AF /* Debug */,
+				627A1058210EAB3300D834AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627A1059210EAB3300D834AF /* Build configuration list for PBXNativeTarget "EosFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627A105A210EAB3300D834AF /* Debug */,
+				627A105B210EAB3300D834AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627A105C210EAB3300D834AF /* Build configuration list for PBXNativeTarget "EosFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627A105D210EAB3300D834AF /* Debug */,
+				627A105E210EAB3300D834AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627A103C210EAB3200D834AF /* Project object */;
+}
