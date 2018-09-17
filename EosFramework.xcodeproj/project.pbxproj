@@ -16,32 +16,42 @@
 		627A107F210EB5AC00D834AF /* EosValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A107D210EB5AC00D834AF /* EosValidate.m */; };
 		627A1082210EB6F800D834AF /* EosByteWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1080210EB6F800D834AF /* EosByteWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A1083210EB6F800D834AF /* EosByteWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1081210EB6F800D834AF /* EosByteWriter.m */; };
-		627A108E210EB85400D834AF /* JKBigDecimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1085210EB85400D834AF /* JKBigDecimal.h */; };
+		627A108E210EB85400D834AF /* JKBigDecimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1085210EB85400D834AF /* JKBigDecimal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A108F210EB85400D834AF /* JKBigDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1086210EB85400D834AF /* JKBigDecimal.m */; };
-		627A1090210EB85400D834AF /* JKBigInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1087210EB85400D834AF /* JKBigInteger.h */; };
+		627A1090210EB85400D834AF /* JKBigInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1087210EB85400D834AF /* JKBigInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A1091210EB85400D834AF /* JKBigInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1088210EB85400D834AF /* JKBigInteger.m */; };
 		627A1092210EB85400D834AF /* tommath.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A108A210EB85400D834AF /* tommath.c */; };
-		627A1093210EB85400D834AF /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108B210EB85400D834AF /* tommath.h */; };
-		627A1094210EB85400D834AF /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108C210EB85400D834AF /* tommath_class.h */; };
-		627A1095210EB85400D834AF /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108D210EB85400D834AF /* tommath_superclass.h */; };
-		627A1098210EB89700D834AF /* EosUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1096210EB89700D834AF /* EosUtils.h */; };
+		627A1093210EB85400D834AF /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108B210EB85400D834AF /* tommath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A1094210EB85400D834AF /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108C210EB85400D834AF /* tommath_class.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A1095210EB85400D834AF /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A108D210EB85400D834AF /* tommath_superclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A1098210EB89700D834AF /* EosUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A1096210EB89700D834AF /* EosUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A1099210EB89700D834AF /* EosUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1097210EB89700D834AF /* EosUtils.m */; };
-		627A109C210EBA0C00D834AF /* NSDate+EosExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A109A210EBA0C00D834AF /* NSDate+EosExt.h */; };
+		627A109C210EBA0C00D834AF /* NSDate+EosExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A109A210EBA0C00D834AF /* NSDate+EosExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A109D210EBA0C00D834AF /* NSDate+EosExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A109B210EBA0C00D834AF /* NSDate+EosExt.m */; };
 		627A10B5210EEE4600D834AF /* EosSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10B3210EEE4600D834AF /* EosSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A10B6210EEE4600D834AF /* EosSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A10B4210EEE4600D834AF /* EosSignature.m */; };
 		627A10C8210EF8ED00D834AF /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10BC210EF8ED00D834AF /* base58.c */; };
-		627A10C9210EF8ED00D834AF /* libbase58.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BD210EF8ED00D834AF /* libbase58.h */; };
-		627A10CA210EF8ED00D834AF /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BE210EF8ED00D834AF /* macros.h */; };
-		627A10CB210EF8ED00D834AF /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BF210EF8ED00D834AF /* options.h */; };
+		627A10C9210EF8ED00D834AF /* libbase58.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BD210EF8ED00D834AF /* libbase58.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A10CA210EF8ED00D834AF /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BE210EF8ED00D834AF /* macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A10CB210EF8ED00D834AF /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10BF210EF8ED00D834AF /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A10CC210EF8ED00D834AF /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C0210EF8ED00D834AF /* rmd160.c */; };
-		627A10CD210EF8ED00D834AF /* rmd160.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C1210EF8ED00D834AF /* rmd160.h */; };
+		627A10CD210EF8ED00D834AF /* rmd160.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C1210EF8ED00D834AF /* rmd160.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A10CE210EF8ED00D834AF /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C2210EF8ED00D834AF /* sha2.c */; };
-		627A10CF210EF8ED00D834AF /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C3210EF8ED00D834AF /* sha2.h */; };
+		627A10CF210EF8ED00D834AF /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C3210EF8ED00D834AF /* sha2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A10D0210EF8ED00D834AF /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C4210EF8ED00D834AF /* sha3.c */; };
-		627A10D1210EF8ED00D834AF /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C5210EF8ED00D834AF /* sha3.h */; };
+		627A10D1210EF8ED00D834AF /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C5210EF8ED00D834AF /* sha3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		627A10D2210EF8ED00D834AF /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 627A10C6210EF8ED00D834AF /* uECC.c */; };
-		627A10D3210EF8ED00D834AF /* uECC.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C7210EF8ED00D834AF /* uECC.h */; };
+		627A10D3210EF8ED00D834AF /* uECC.h in Headers */ = {isa = PBXBuildFile; fileRef = 627A10C7210EF8ED00D834AF /* uECC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BA214FF26400532E23 /* JKBigDecimal.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A1086210EB85400D834AF /* JKBigDecimal.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BB214FF26400532E23 /* JKBigInteger.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A1088210EB85400D834AF /* JKBigInteger.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BC214FF26400532E23 /* tommath.c in Headers */ = {isa = PBXBuildFile; fileRef = 627A108A210EB85400D834AF /* tommath.c */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BD214FF26400532E23 /* EosEncode.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A1079210EAB8D00D834AF /* EosEncode.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BE214FF26400532E23 /* EosValidate.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A107D210EB5AC00D834AF /* EosValidate.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77BF214FF26400532E23 /* EosByteWriter.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A1081210EB6F800D834AF /* EosByteWriter.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77C0214FF26400532E23 /* EosSignature.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A10B4210EEE4600D834AF /* EosSignature.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77C1214FF26400532E23 /* EosUtils.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A1097210EB89700D834AF /* EosUtils.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77C2214FF26400532E23 /* NSDate+EosExt.m in Headers */ = {isa = PBXBuildFile; fileRef = 627A109B210EBA0C00D834AF /* NSDate+EosExt.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65B77C3214FF26400532E23 /* Info.plist in Headers */ = {isa = PBXBuildFile; fileRef = 627A1049210EAB3200D834AF /* Info.plist */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,7 +233,6 @@
 				627A10D1210EF8ED00D834AF /* sha3.h in Headers */,
 				627A1090210EB85400D834AF /* JKBigInteger.h in Headers */,
 				627A10CB210EF8ED00D834AF /* options.h in Headers */,
-				627A1056210EAB3300D834AF /* EosFramework.h in Headers */,
 				627A1098210EB89700D834AF /* EosUtils.h in Headers */,
 				627A10CD210EF8ED00D834AF /* rmd160.h in Headers */,
 				627A10CA210EF8ED00D834AF /* macros.h in Headers */,
@@ -232,6 +241,17 @@
 				627A10D3210EF8ED00D834AF /* uECC.h in Headers */,
 				627A108E210EB85400D834AF /* JKBigDecimal.h in Headers */,
 				627A1093210EB85400D834AF /* tommath.h in Headers */,
+				627A1056210EAB3300D834AF /* EosFramework.h in Headers */,
+				F65B77BA214FF26400532E23 /* JKBigDecimal.m in Headers */,
+				F65B77BB214FF26400532E23 /* JKBigInteger.m in Headers */,
+				F65B77BC214FF26400532E23 /* tommath.c in Headers */,
+				F65B77BD214FF26400532E23 /* EosEncode.m in Headers */,
+				F65B77BE214FF26400532E23 /* EosValidate.m in Headers */,
+				F65B77BF214FF26400532E23 /* EosByteWriter.m in Headers */,
+				F65B77C0214FF26400532E23 /* EosSignature.m in Headers */,
+				F65B77C1214FF26400532E23 /* EosUtils.m in Headers */,
+				F65B77C2214FF26400532E23 /* NSDate+EosExt.m in Headers */,
+				F65B77C3214FF26400532E23 /* Info.plist in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
