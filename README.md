@@ -5,7 +5,7 @@ This is a framework for push transaction of eos.
 1. Use this method to get the bytes for signature.
 + (NSData *)getBytesForSignature:(NSData *)chainId andParams:(NSDictionary *)paramsDic andCapacity:(int)capacity;
 
-2.Then get the string of signature with the private key.
+2. Then get the string of signature with the private key.
 + (NSString *)initWithbytesForSignature:(NSData *)bytesForSignature privateKey:(int8_t *)privateKey;
 
 # For example
