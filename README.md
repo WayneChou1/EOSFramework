@@ -1,4 +1,4 @@
-# EOSFramework
+# EOS Framework
 
 This is a framework for push transaction of eos.
 
